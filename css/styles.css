@@ -316,6 +316,13 @@ margin-right: auto;
     align-items: center;
     justify-content: center;
 }
+.team-link{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  
+}
 .team-icons:hover,
 .team-icons:focus{
   background-color: #31D0AA;
@@ -449,7 +456,7 @@ font-family: "Raleway", sans-serif;;
 .footer-list-icons {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .footer-icons {
@@ -487,4 +494,7 @@ font-family: "Raleway", sans-serif;;
  .footer-link:hover,
  .footer-link:focus {
    background-color: #31D0AA;
+ }
+ .social-icons{
+  fill: #f4f4fd;
  }
